@@ -34,7 +34,7 @@ async function main() {
     await mongoose.connect(dbUrl);
 };
 
-let port = 8080;
+let port = process.env.PORT || 8080;
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
