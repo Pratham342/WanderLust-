@@ -1,0 +1,137 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+/* navbar stylings starts */
+.navbar{
+    height: 5rem;
+    background-color: #fff;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+/* navbar stylings starts */
+
+
+/* footer stylings starts */
+.f-info{
+    display: flex;
+    background-color: #ebebeb;
+    height: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+.f-info-links, .f-info-socials, .f-info-brands{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+/* footer stylings ends  */
+
+
+/* card styling starts */
+.listing-card{
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-text p{
+    font-weight: 400;
+}
+
+.listings_links, .listings_links:hover{
+    text-decoration: none;
+    color: #222222;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+/* card styling ends  */
+
+
+/* add or new page styling start  */
+.add-btn{
+    background-color: #fe424d;
+    border: none;
+}
+/* add or new page styling end  */
+
+
+/* edit page styling start  */
+.edit-btn{
+    background-color: #fe424d;
+    border: none;
+}
+/* edit page styling end  */
+
+
+/* show page styling start  */
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* show page styling end  */
+
+/* map stlying starts  */
+#map {
+    width: 90vh;
+    height: 400px; 
+}
+/* map styling ends  */
